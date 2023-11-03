@@ -9,7 +9,7 @@ function App() {
               <img src={logo} />
             </div>
             <div className="">
-              <ul className="flex">
+              <ul className="flex gap-5">
                 <li>Home</li>
                 <li>Discover</li>
                 <li>Activities</li>
@@ -18,7 +18,7 @@ function App() {
               </ul>
             </div>
             <div className="">
-              <button>Register</button>
+              <button className="mr-5">Register</button>
               <button>Sign In</button>
             </div>
           </div>
