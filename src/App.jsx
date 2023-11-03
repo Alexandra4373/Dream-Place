@@ -1,8 +1,13 @@
+import logo from "./assets/logo.png";
 function App() {
   return (
     <>
       <div className="">
-        <p>hello world</p>
+        <div className="">
+          <div className="">
+            <img src={logo} />
+          </div>
+        </div>
       </div>
     </>
   );
