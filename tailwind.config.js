@@ -7,6 +7,10 @@ export default {
         padding: "2rem",
         center: true,
       },
+
+      colors: {
+        primary: "#2F80ED",
+      },
     },
   },
   plugins: [],

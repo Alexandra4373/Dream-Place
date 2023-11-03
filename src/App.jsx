@@ -1,4 +1,5 @@
 import logo from "./assets/logo.png";
+import hero from "./assets/hero.png";
 function App() {
   return (
     <>
@@ -19,10 +20,12 @@ function App() {
             </div>
             <div className="">
               <button className="mr-5">Register</button>
-              <button>Sign In</button>
+              <button className="bg-primary">Sign In</button>
             </div>
           </div>
         </div>
+
+        <div className="bg-hero"></div>
       </div>
     </>
   );
