@@ -25,7 +25,13 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-hero"></div>
+        <div className="bg-hero flex flex-col justify-center items-center p-20 pl-20">
+          <p>Enjoy Your Dream Vacation</p>
+          <p>
+            Plan and book our perfect trip with expert advice, travel tips,
+            destination <br /> information and inspiration from us
+          </p>
+        </div>
       </div>
     </>
   );
