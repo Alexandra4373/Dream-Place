@@ -3,13 +3,13 @@ function App() {
   return (
     <>
       <div className="">
-        <div className="">
+        <div className="flex justify-between">
           <div className="">
             <img src={logo} />
           </div>
 
           <div className="">
-            <ul>
+            <ul className="flex">
               <li>Home</li>
               <li>Discover</li>
               <li>Activities</li>
