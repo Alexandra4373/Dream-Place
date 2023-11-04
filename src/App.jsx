@@ -25,7 +25,7 @@ function App() {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container py-10">
           <div className="bg-hero flex flex-col justify-center items-center p-20 ">
             <p>Enjoy Your Dream Vacation</p>
             <p>
@@ -37,15 +37,15 @@ function App() {
 
         <div className="container">
           <div className="flex justify-center ">
-            <button className="bg-white border rounded p-5 mt--20">
-              <label>
+            <button className="bg-white border rounded p-3 mb--20">
+              <label className="bg-white border rounded mr-3">
                 <input type="text" placeholder="Where are you going"></input>
               </label>
               <label>
                 <input type="text" placeholder="Check in date"></input>
               </label>
               <label>
-                <input type="text" placeholder="Chexk out date"></input>
+                <input type="text" placeholder="Check out date"></input>
               </label>
               <label>
                 <input type="text" placeholder="Guest"></input>
