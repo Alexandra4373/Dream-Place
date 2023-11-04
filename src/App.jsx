@@ -37,6 +37,8 @@ function App() {
           <label>
             <input type="text" placeholder="Where are you going"></input>
           </label>
+
+          <button>Search</button>
         </button>
       </div>
     </>
