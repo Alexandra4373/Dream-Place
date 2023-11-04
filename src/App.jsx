@@ -25,13 +25,19 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-hero flex flex-col justify-center items-center p-20 pl-20">
+        <div className="bg-hero flex flex-col justify-center items-center p-20 ">
           <p>Enjoy Your Dream Vacation</p>
           <p>
             Plan and book our perfect trip with expert advice, travel tips,
             destination <br /> information and inspiration from us
           </p>
         </div>
+
+        <button className="bg-white">
+          <label>
+            <input type="text" placeholder="Where are you going"></input>
+          </label>
+        </button>
       </div>
     </>
   );
