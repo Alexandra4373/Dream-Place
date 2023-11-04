@@ -25,21 +25,35 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-hero flex flex-col justify-center items-center p-20 ">
-          <p>Enjoy Your Dream Vacation</p>
-          <p>
-            Plan and book our perfect trip with expert advice, travel tips,
-            destination <br /> information and inspiration from us
-          </p>
+        <div className="container">
+          <div className="bg-hero flex flex-col justify-center items-center p-20 ">
+            <p>Enjoy Your Dream Vacation</p>
+            <p>
+              Plan and book our perfect trip with expert advice, travel tips,
+              destination <br /> information and inspiration from us
+            </p>
+          </div>
         </div>
 
-        <button className="bg-white">
-          <label>
-            <input type="text" placeholder="Where are you going"></input>
-          </label>
-
-          <button>Search</button>
-        </button>
+        <div className="container">
+          <div className="flex justify-center ">
+            <button className="bg-white border rounded p-5 mt--20">
+              <label>
+                <input type="text" placeholder="Where are you going"></input>
+              </label>
+              <label>
+                <input type="text" placeholder="Check in date"></input>
+              </label>
+              <label>
+                <input type="text" placeholder="Chexk out date"></input>
+              </label>
+              <label>
+                <input type="text" placeholder="Guest"></input>
+              </label>
+              <button>Search</button>
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
