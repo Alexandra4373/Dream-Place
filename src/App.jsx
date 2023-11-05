@@ -66,6 +66,10 @@ function App() {
         <div className="">
           <p>Get inspiration for your next trip</p>
         </div>
+
+        <div className="">
+          <p>Popular hostels</p>
+        </div>
       </div>
     </>
   );
