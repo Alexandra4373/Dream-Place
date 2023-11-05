@@ -55,11 +55,17 @@ function App() {
           </div>
         </div>
 
-        <p>Enjoy your vacation</p>
-        <p>
-          Plan and book our perfect trip with expert advice, travel tips,
-          destination information and inspiration from us
-        </p>
+        <div className="">
+          <p>Enjoy your vacation</p>
+          <p>
+            Plan and book our perfect trip with expert advice, travel tips,
+            destination information and inspiration from us
+          </p>
+        </div>
+
+        <div className="">
+          <p>Get inspiration for your next trip</p>
+        </div>
       </div>
     </>
   );
