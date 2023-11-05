@@ -54,6 +54,12 @@ function App() {
             </button>
           </div>
         </div>
+
+        <p>Enjoy your vacation</p>
+        <p>
+          Plan and book our perfect trip with expert advice, travel tips,
+          destination information and inspiration from us
+        </p>
       </div>
     </>
   );
