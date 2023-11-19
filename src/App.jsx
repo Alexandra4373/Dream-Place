@@ -10,7 +10,7 @@ function App() {
               <img src={logo} />
             </div>
             <div className="">
-              <ul className="flex gap-5">
+              <ul className="sm:flex hidden gap-5">
                 <li>Home</li>
                 <li>Discover</li>
                 <li>Activities</li>
@@ -85,6 +85,19 @@ function App() {
 
         <div className="">
           <p>Popular hostels</p>
+        </div>
+
+        {/* footer */}
+        <div className="py-20">
+          <div className="container">
+            <div className="">
+              <p>Explore the world with my Dream place</p>
+              <div className="">
+                <h1>my Dream Place</h1>
+                <p>Your next go to companion for travel </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
